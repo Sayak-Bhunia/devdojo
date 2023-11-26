@@ -1,4 +1,4 @@
-const Banner = ({ images, speed = 40000 }) => {
+const Banner = ({ images, speed = 50000 }) => {
     return (
       <div className="inner">
         <div className="wrapper">
