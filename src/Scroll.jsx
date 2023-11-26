@@ -27,7 +27,7 @@ const images = [
 export default function Scroll() {
   return (
     <div className="scroll">
-      <Banner images={images} speed={40000} />
+      <Banner images={images} speed={50000} />
     </div>
   );
 }
