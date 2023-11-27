@@ -45,7 +45,7 @@ const Footer = () => {
                     </div>
                     <div className="sb__footer-links_div">
                         <h3>Call Us</h3>
-                        <a href="/">
+                        <a href="tel:+918910636554">
                             <p>+918910636554</p>
                         </a>
                     </div>
