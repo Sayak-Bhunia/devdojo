@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 import sayak from "./images/sayak.png";
 import saket from "./images/saket.png";
 import subh from "./images/subh.png";
-import ethan from "./images/sukuna.png";
+import ethan from "./images/ethan.png";
 import max from "./images/max.png";
 import './Member.css';
 
@@ -14,7 +14,7 @@ const profiles = [
   { id: 1, name: 'Sayak Bhunia', image: sayak, details: 'Frontend Developer',github:'https://github.com/Sayak-Bhunia', twitter:'https://twitter.com/0xSayak15089', linkedin:'https://www.linkedin.com/in/sayak-bhunia-452419252/' },
   { id: 2, name: 'Saket Srivastava', image: saket, details: 'Backend Developer',github:'https://www.github.com/SAKET687', twitter:'https://x.com/sriva60495', linkedin:'https://www.linkedin.com/in/saket-srivastava-8776a025a' },
   { id: 3, name: 'Subhraneel Saha', image: subh, details: 'Fullstack Developer',github:'https://github.com/TerminatorSS24', twitter:'https://twitter.com/Subhraneel40939', linkedin:'https://www.linkedin.com/in/subhraneel-saha-9499ab253/'},
-  { id: 4, name: 'Snehangshu Mahapatra', image: sukuna, details: 'Content/Design',github:'https://github.com/Snehangshu-mahapatra', twitter:'https://mobile.twitter.com/FreePla01316841', linkedin:'https://www.linkedin.com/in/snehangshu-mahapatra-228086267/'},
+  { id: 4, name: 'Snehangshu Mahapatra', image: ethan, details: 'Content/Design',github:'https://github.com/Snehangshu-mahapatra', twitter:'https://mobile.twitter.com/FreePla01316841', linkedin:'https://www.linkedin.com/in/snehangshu-mahapatra-228086267/'},
   { id: 5, name: 'Rajarshi Nath', image: max, details: 'Competitive Programmer',github:'https://github.com/Max-31', twitter:'https://twitter.com/JeetRajnath', linkedin:'https://www.linkedin.com/in/rajarshi-nath-781456255/'},
 ];
 
