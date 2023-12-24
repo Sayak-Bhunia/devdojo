@@ -52,9 +52,9 @@ const Footer = () => {
                     <div className="sb__footer-links_div">
                         <h3>Connect With Us</h3>
                         <div className="social_media">
-                            <p><a href="https://github.com/devdojo14756"><i className='bx bxl-github bx-md' ></i></a></p>
+                            <p><a href="https://github.com/The-Dev-Dojo/"><i className='bx bxl-github bx-md' ></i></a></p>
                             <p><a href="https://www.linkedin.com/company/99019744/admin/feed/posts/"><i className='bx bxl-linkedin bx-md' ></i></a></p>
-                            <p><a href="https://twitter.com/DevDojo186759"><i className='bx bxl-twitter bx-md' ></i></a></p>
+                            <p><a href="https://x.com/DevDojo_/"><i className='bx bxl-twitter bx-md' ></i></a></p>
                             <p><a href="https://www.instagram.com/devdojotnaf/"><i className='bx bxl-instagram bx-md' ></i></a></p>
                         </div>
                     </div>
