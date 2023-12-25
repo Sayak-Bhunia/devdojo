@@ -39,7 +39,7 @@ const Footer = () => {
                     </div>
                     <div className="sb__footer-links_div">
                         <h3>Contact</h3>
-                        <a href="mailto:devdojo14745@mail.com">
+                        <a href="mailto:devdojo.website@gmail.com">
                             <p>Email</p>
                         </a>
                     </div>
