@@ -1,4 +1,5 @@
-### Welcome to DevDojo 🚀
+### Welcome to DevDojo 🚀 [![Discord](https://dcbadge.vercel.app/api/server/zhcGYBmdff)](https://discord.gg/zhcGYBmdff)
+<p align="right"> <img src="https://komarev.com/ghpvc/?username=the-dev-dojo&label=Profile%20views&color=5b23fa&style=flat" /> </p>
 
 👋 Welcome to the Dev Dojo Community's GitHub—a thriving space for Developers, Creators, and Tech Enthusiasts.
 
@@ -37,10 +38,5 @@ Dev Dojo welcomes contributions in various forms—coding, non-coding, and commu
 💬 Need help or have questions? [Contact us](mailto:devdojo.website+support@gmail.com)
 
 ---
-
-### Members : 
-
-[![Discord](https://dcbadge.vercel.app/api/server/zhcGYBmdff)](https://discord.gg/zhcGYBmdff)
-<p align="right"> <img src="https://komarev.com/ghpvc/?username=the-dev-dojo&label=Profile%20views&color=5b23fa&style=flat" /> </p>
 
 ---
