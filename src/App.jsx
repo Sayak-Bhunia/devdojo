@@ -1,29 +1,19 @@
-import React from 'react';
-import './App.css';
-import Scroll from './Scroll';
-import Middle from "./Middle";
-import Navbar from './Navbar';
-import HeroSection from './HeroSection';
-import Head from "./Head";
-import Hymn from './Hymn';
-import About from "./About";
-import Member from './Member';
-import Service from './Service';
-import Heading from './Hymn';
-import Footer from './Footer';
+/* eslint-disable no-unused-vars */
+import React from "react";
+import "./App.css";
+import Home from "./Home";
+import Hackathons from "./Hackathons";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => (
-  <>
-    <Navbar />
-    <Head />
-    <About />
-    <Scroll />
-    <Service />
-    <Middle />
-    <Hymn />
-    <Member />
-    <Footer />
-  </>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/Hackathons" element={<Hackathons />} />
+    </Routes>
+  </BrowserRouter>
 );
 
 export default App;
