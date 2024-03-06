@@ -5,12 +5,86 @@ import React from "react";
 import Diversion from "./assets/DIVERSION_2K24.jpg";
 import HackThisFall from "./assets/HACK_THIS_FALL.jpg";
 import Rebase from "./assets/REBASE01.jpg";
+import AceHack from "./assets/ACE_HACK.jpeg.jpg";
+import HackHive from "./assets/HACKHIVE.jpg";
 
 const Hackathons = () => {
   return (
     <div className="hackathon-page">
       <div className="item-container">
         {" "}
+        {/* ACE HACK 3.0 */}
+        <div className="item-box">
+          <img src={AceHack} alt="Hackathon" className="hackathon-image" />
+          <h1>Dev Dojo X AceHack 3.0</h1>
+          <p className="intro-text">
+            📢 Calling all Hackers! 👥 The anticipation is finally over! ⏰
+            Registration for your go-to Hackathon is now LIVE, offering you a
+            direct route to the stars! 💫🚀
+          </p>
+          <p className="register-text">
+            Register Now :{" "}
+            <a
+              href="https://acehack-3.devfolio.co/?ref=7a7f9e1d0d"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://acehack-3.devfolio.co/
+            </a>{" "}
+            ⚡
+          </p>
+          <p className="query-text">For more queries, visit:</p>
+          <p>
+            <a
+              href="https://www.rebase01.tech/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              AceHack 3.0
+            </a>
+          </p>
+          <p>
+            <a href="/home" target="_blank" rel="noreferrer">
+              Dev Dojo
+            </a>
+          </p>
+        </div>
+        {/* Hack Hive */}
+        <div className="item-box">
+          <img src={HackHive} alt="Hackathon" className="hackathon-image" />
+          <h1>Dev Dojo X HackHive</h1>
+          <p className="intro-text">
+            📢 Attention Hackers! The wait is over! Join us for a 36-hour,
+            multi-domain, nationwide, in-person hackathon experience at HackHive
+            and elevate your tech game! 🚀
+          </p>
+          <p className="register-text">
+            Register Now :{" "}
+            <a
+              href="https://hackhive.devfolio.co/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://hackhive.devfolio.co/
+            </a>{" "}
+            ⚡
+          </p>
+          <p className="query-text">For more queries, visit:</p>
+          <p>
+            <a
+              href="https://www.techhunterssss.tech/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              HackHive
+            </a>
+          </p>
+          <p>
+            <a href="/home" target="_blank" rel="noreferrer">
+              Dev Dojo
+            </a>
+          </p>
+        </div>
         {/* REBASE 01 */}
         <div className="item-box">
           <img src={Rebase} alt="Hackathon" className="hackathon-image" />
