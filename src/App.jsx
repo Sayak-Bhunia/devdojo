@@ -3,16 +3,15 @@ import React from "react";
 import "./App.css";
 import Home from "./Home";
 import Hackathons from "./Hackathons";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 const App = () => (
   <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="*" element={<Home />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/Hackathons" element={<Hackathons />} />
-    </Routes>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/home" component={Home} />
+      <Route exact path="/Hackathons" component={Hackathons} />
+    </Switch>
   </BrowserRouter>
 );
 
